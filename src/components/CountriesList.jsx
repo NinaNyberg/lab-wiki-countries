@@ -1,13 +1,6 @@
 import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-
-// import countriesData from '../countries.json';
 
 const CountriesList = ({ countries }) => {
-  const params = useParams();
-  const { id } = params;
-
   return (
     <div>
       <ul style={{ listStyle: 'none' }}>
